@@ -44,10 +44,10 @@
         </div>
         <div class="col-lg-8" id="contact-1">
                 <!-- accept-charset="UTF-8" action="https://usebasin.com/f/65da175249c3" method="POST" -->
-    <form >
+    <form id="contact-form">
                 <div class="form-group">
                   <label for="name">Name</label>
-                  <input type="name" class="form-control" id="name" name="email" placeholder="Your Name" required>
+                  <input type="name" class="form-control" id="name" name="name" placeholder="Your Name" required>
                 </div>
 
                 <div class="form-group">
@@ -104,8 +104,22 @@ $("#submit").on("click", function(event){
         comments: comments,
         dateadded: firebase.database.ServerValue.TIMESTAMP
     });
-    database.ref().orderByChild(database.dateadded).limitToLast(1);
+    
+    console.log("database.dateadded= " + database.dateadded);
+    // database.ref().orderByChild(database.dateadded).limitToLast(1);
+    resetForm();
+// function clearAll(){
+    // $("#name").html("");
+    // $("#email").html("");
+    // $("#contact").html("");
+// };
+
+// clearAll();
+   
 });
+function resetForm(){
+   $("#contact-form").trigger("reset"); 
+};
 
 database.ref().on("child_added", function(snapshot){
     var contactInfo = snapshot.val();
