@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-portfolio",
+  "version": "1.0.0",
+  "description": "This is the personal portfolio made with bootstrap.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amena99/Bootstrap-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amena99/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Amena99/Bootstrap-Portfolio#readme"
+}
