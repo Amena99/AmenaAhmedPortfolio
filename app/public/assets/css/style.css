@@ -23,7 +23,16 @@ form {
     font-weight: 900;
     text-align: center;
     color: #40E0D0;
-    font-family: 'VT323', monospace;
+    font-family: monospace;
+    font-size: 80px;
+}
+#contacttitle{
+    padding-top:50px;
+    padding-bottom:10px;
+    font-weight: 900;
+    text-align: center;
+    color: #40E0D0;
+    font-family: monospace;
     font-size: 80px;
 }
 
@@ -98,13 +107,24 @@ form {
     border-bottom: solid #40E0D0 7px;
     /* font-weight: 200; */
 }
+
 #navlink1, #navlink2, #navlink3{
     color:#40E0D0 !important;
-    font-weight: 50 !important;
-    align-content: right;
+    /* font-weight: 50 !important; */
+    font-size: 20px;
+    font-weight: 200; 
 }
-.mainnavtxt{
-     padding-left: 75px;
+
+#nav-name{
+    color:#40E0D0 !important;
+    /* font-weight: 50 !important; */
+    font-size: 20px;
+    font-weight: 200; 
+    padding-left: 75px;
+}
+
+#mainnavtxt{
+    padding-left: 75px;
      color:#40E0D0 !important;
     font-weight: 250 !important;
     align-content: right;
