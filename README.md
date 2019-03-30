@@ -7,6 +7,6 @@ Amena Ahmed
 
 am.ahmed09@gmail.com
 
-[https://www.linkedin.com/in/amena-ahmed](https://www.linkedin.com/in/amena-ahmed)
+<https://www.linkedin.com/in/amena-ahmed>
 
-[https://github.com/Amena99](https://github.com/Amena99)
+<https://github.com/Amena99](https://github.com/Amena99>
