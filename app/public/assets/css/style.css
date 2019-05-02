@@ -147,7 +147,7 @@ span{
 #subt3{
     font-weight: 200;
     font-size: 15px;
-    padding-top:50px;
+    padding-top:0px;
     padding-left: 50px;
     color: #505050;
     font-weight: 300;
@@ -179,10 +179,11 @@ span{
     /* border-bottom: solid #40E0D0 7px; */
     /* font-weight: 200; */
 }
-
-#navlink1, #navlink2, #navlink3, .nav-item{
+/* .nav-link{
+    width: 200px;
+} */
+#navlink1, #navlink2, #navlink3{
     color: gray !important;
-    /* font-weight: 50 !important; */
     font-size: 20px;
     font-weight: 200; 
 }
@@ -205,8 +206,19 @@ span{
 #nav_links{
     padding-right: 75px;
 }
-#navbarSupportedContent{
-    float: right;
+
+#navbarSupportedContent,
+#navlink2,
+#navlink1,
+#navlink3,
+#linkedin_fa,
+#github_fa{
+    /* float: right; */
+    background: white;
+    padding-right:10px;
+    padding-left:10px;
+    width: 50%;
+    border-radius:5px;
 }
 
 .navbar-toggler{
@@ -214,7 +226,10 @@ span{
     /* background-color: gray; */
     color: gray;
 }
-
+.dropdown{
+    background: white;
+    
+}
 
 #about1{
     text-align: left;
@@ -289,16 +304,16 @@ span{
 #portfolioRow3
 {
     background-color:#505050;
-    border-bottom: solid 25px #40E0D0;
+    border-bottom: solid 25px #0ea9bd;
 }
 #portfolioRow2
 {
-    border-bottom: solid 25px #40E0D0;
+    border-bottom: solid 25px #0ea9bd;
     padding-bottom:150px;
 }
 #portfolioRow4
 {
-    background-color:#40E0D0; 
+    background-color:#0ea9bd; 
     padding-top:150px;
     padding-bottom: 200px;
 }
