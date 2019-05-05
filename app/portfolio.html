@@ -1,193 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Amena Ahmed</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Amena Ahmed</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Crete+Round|Dancing+Script|Inconsolata|Orbitron|Pacifico|VT323" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto+Mono|Special+Elite" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="portfolio_body">
 <!-- Nav -->
  <div class="container-fluid fullpage"> 
-        <div class="row">
+    <div class="row">
         <div class="col-lg-12">
-        <div nav class="navbar navbar-expand-lg" id="navbar">
-                <a class="navbar-brand mainnavtxt" id="nav-name" href="/about">Amena Ahmed</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto" id="nav_links" >
-                        <a class="nav-item nav-link navlink" id="navlink1" href="/about">About</a>
-                                <a class="nav-item nav-link navlink" id="navlink2" href="/portfolio">Portfolio</a>
-                                <a class="nav-item nav-link navlink" id="navlink3" href="/contact">Contact</a>
+        <!-- NAVBAR  -->
+        <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+                        <a class="navbar-brand mr-0 mainnavtxt" id="nav-name" href="/about">Amena Ahmed</a>
+                                <button class="navbar-toggler ml-1" id="nav-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                </button>
+                        <div class="navbar-collapse collapse text-right" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                        <a class="nav-link" id="navlink2" href="/portfolio">Portfolio</a>
+                                </li> 
+                                <li class="nav-item">
+                                        <a class="nav-link" id="navlink1" href="https://drive.google.com/file/d/1Ri_MdMf9Tjjamp1mPWNGbMdw2iFG_AKW/view?usp=sharing" target="_blank">Resume</a>
+                                </li> 
+                                <li class="nav-item">
+                                        <a class="nav-link" id="navlink3" href="/contact" >Contact</a>
+                                </li>
+                                        <li class="nav-item" id="linkedin_fa">
+                                        <a class="nav-link" href="https://github.com/Amena99" target="_blank"><i class="fa fa-github fa-lg mr-1"></i></a>
+                                </li>
+                                <li class="nav-item" id="github_fa">
+                                        <a class="nav-link" href="http://www.linkedin.com/in/amena-ahmed" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a> 
+                                </li>
+                                
+                                </ul>
+                        </div>  
+        </nav>
+        <!-- END NAV -->
         </div>
-         </div>                
-        </div>
-        </div>
-        </div>
-<!-- /Nav -->
+    </div>
+<!-- End Row 1-->
 
 <!-- Intro Row -->
 <div class="row" id="portfolio_div">
+        <div class="col-lg-1" id="port_t"></div>
+                <div class="col-lg-10" id="titlecol"> 
+                        <!-- <div class="row"></div>  -->
+                        <div id="portfolio_title"><span>|Web Development Portfolio|</span></div>
+                </div>
         <div class="col-lg-1"></div>
-        <div class="col-lg-10" id="titlecol">  
-                <h1 id="portfolio_title">Check Out My Recent Projects...</h1>
-        </div>
-         <div class="col-lg-1"></div>
 </div>
 <!-- /Intro Row   -->
 
+<!-- Projects Row 0.5 -->
+<div class="row games1" id="portfolioRow0-5">
+                <!-- <div class="col-lg-1"></div> -->
+                <div class="col-lg-12">
+                        <h4 id="heading1">Recent Full-Stack Projects</h4>
+                        <p class="sub-heading1"> </p>
+                        <div class="row pic_row">
+                                <div class="col-md-6 port-special">
+                                        <div class="card cardtimelender" style="width: 40rem;">
+                                                <a  href="https://timelender.herokuapp.com/" target="_blank"><img class="card-img-top port_pic_special" id="timelender" src="https://i.imgur.com/VMcXy4j.png" width="300px" height="250px" alt="portfolio art"></a>
+                                                <!-- <div class="card-body">
+                                                        <h6 class="card-title port_item1">Time Lender</h6>
+                                                        <h6 class="card-subtitle mb-2 text-muted item_text1">React.js and MySQL</h6>
+                                                </div> -->
+                                        </div>     
+                                </div>
+                                <div class="col-md-6 port-special2"> 
+                                     <div class="card cardtimelender2" style="width: 40rem;">
+                                        <div class="card-body">
+                                                <h6 class="card-title port_item1">Time Lender</h6>
+                                                <h6 class="card-subtitle mb-2 text-muted item_text1">React.js and MySQL</h6>
+                                                <p class="card-text sub_item_text1">A platform for users to volunteer time to community projects. Likewise, TimeLender provides a space for community organizations, or individuals doing good for the community to post their projects and the volunteer hours needed to completed them. Organizations can manage the hours users have pledged and the various projects they have posted.</p>
+                                                <a href="https://github.com/Amena99/CharityProject/blob/master/README.md" target="_blank" class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                                <a href="https://timelender.herokuapp.com/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                        </div>
+                                </div>      
+                                </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-1"></div> -->
+        </div>
 <!-- Projects Row 1 -->
 <div class="row games1" id="portfolioRow1">
-        <div class="col-sm-1"></div>
+        <div class="col-lg-1"></div>
         <div class="col-lg-10">
-                <h4 id="heading1">React JS</h4>
-                <p class="sub-heading1">
-                  These projects were built with React.js and Bootstrap for front-end design.
-                
-                </p>
-                <div class="step-block">
+                <h4 id="heading1">More Full-Stack Projects</h4>
+                <p class="sub-heading1">Built in JavaScript with server-side Node.js </p>
                 <div class="row pic_row">
-                        <!-- <div class="col-sm-1 port-pic"></div> -->
                         <div class="col-sm-6 port-pic">
-                                <!-- <a href="https://imgur.com/1nDpKOU"><img src="https://i.imgur.com/1nDpKOU.png" title="source: imgur.com" /></a> -->
-                                <a  href="https://clickmememorygame.herokuapp.com/" target="_blank"><img class="port_pic1" src="https://i.imgur.com/ASXfROn.png" width="300px" height="250px" alt="portfolio3"></a>
-                                <h6 class="port_item_react">Avengers Click Game</h6>
-                                <p class="item_text_react">React.js Components Props & State.</p>
-                                <p class="sub_item_react">Win this memory game by clicking no character twice! Effective use of React components, props, and state to handle events <br>and keep game score.</p>
-                       
+                        <div class="card" style="width: 25 rem;">
+                                <a  href="https://amena99.github.io/HungryAPI/" target="_blank"><img class="card-img-top port_pic1" id="hungry" src="https://i.imgur.com/tF2sgxU.png" width="300px" height="250px" alt="portfolio art"></a>
+                                <div class="card-body">
+                                        <h6 class="card-title port_item1">"Hungry?" - Restaurant Finder</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted item_text1">JS Geolocation & Zomato Restaurants API</h6>
+                                        <p class="card-text sub_item_text1">Going out for a bite with friends? Need a restaurant catered to your group's specific needs? 'Hungry' can help! This app tracks the user's location (lat & lon) using JavaScript's geolocation and then uses it to find restaurants within a 2/3 mile radius that match the user's preference. In the mood for Thai? Need vegan? Just delegate the search to this helpful app!</p>
+                                        <a href="https://github.com/Amena99/HungryAPI/blob/master/README.md" target="_blank" class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                        <a href="https://amena99.github.io/HungryAPI/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                </div>
+                        </div>     
                         </div>
-                        <!-- <div class="col-sm-2 port-pic"></div> -->
-                        <div class="col-sm-6 port-pic">
-                        
-                                <a  href="https://dashboard.heroku.com/apps/floating-beyond-74728" target="_blank"><img class="port_pic1" id="hungry" src="https://i.imgur.com/O5Av1vJ.png" width="300px" height="250px" alt="portfolio art"></a>
-                                <h6 class="port_item_react">GoogleBooks Search & Save</h6>
-                                <p class="item_text_react">Search GoogleBooks API & MongoDB</p>
-                                <p class="sub_item_react">App enables users to search the GoogleBooks API for books by title or author. Chosen books can then be saved in user's <br>'Saved' list using MongoDB.</p>
-                      
+                        <div class="col-sm-6 port-pic"> 
+                                <div class="card" style="width: 25 rem;">
+                                        <a  href="https://devvo-nabb.herokuapp.com/" target="_blank"><img class="card-img-top port_pic1" id="trains" src="https://i.imgur.com/E8yHI2R.png" width="300px" height="250px" alt="portfolio art"></a>
+                                        <div class="card-body">
+                                                <h6 class="card-title port_item1">Devvo Learning Platform</h6>
+                                                <h6 class="card-subtitle mb-2 text-muted item_text1">Express & Sequelize</h6>
+                                                <p class="card-text sub_item_text1">Prepping for a coding interview? 'Devvo' makes this job easier by providing the user with an organized platform that breaks down the big learning venture into manageable tasks. Lesson plans are stored in a MySQL database using a Sequelize ORM. A dynamically populating progress bar and charts using Chart.js keep the motivations high!</p>
+                                                <a href="https://github.com/n-a-b-b/devvo/blob/master/README.md" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                                <a href="https://devvo-nabb.herokuapp.com/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                        </div>
+                                </div>
                         </div>
-                        <div class="col-sm-1 port-pic"></div>
                 </div>
-                </div>
-        </div> 
-<div class="col-lg-1"></div>
+            </div>
+            <div class="col-lg-1"></div>
 </div>
 
 <!-- Projects Row 2 -->
 <div class="row games2" id="portfolioRow2">
         <div class="col-lg-1"></div>
         <div class="col-lg-10"> 
-                <h4 id="heading2">Full-Stack Projects</h4>
+                <h4 id="heading2">React.js</h4>
                 <p class="sub-heading2">
-                        Below are full-stack sites built in JavaScript with server-side NodeJS. 
+                These projects were built with React.js and Bootstrap for front-end design. 
                 </p>
-                <div class="step-block">
-               <div class="row pic_row">
-                                        <!-- <div class="col-sm-1 port-pic"></div> -->
-                                        <div class="col-sm-6 port-pic">
-                                        
-                                                <a  href="https://nueva-orange-team.github.io/Project1/" target="_blank"><img class="port_pic1" id="hungry" src="https://i.imgur.com/tF2sgxU.png" width="300px" height="250px" alt="portfolio art"></a>
-                                                <h6 class="port_item1">"Hungry" - Restaurant Locator</h6>
-                                                <p class="item_text1">JS Geolocation & Zomato Restaurants API.</p>
-                                                <p class="sub_item_text1">Going out for a bite with friends? Need a restaurant catered to your group's specific needs? 'Hungry' can help! This app tracks the user's location (lat & lon) using JavaScript's geolocation and then uses it to find restaurants within a 2/3 mile radius that match the user's preference. In the mood for Thai? Need vegan? Gluten free? Just delegate the search to this helpful app!</p>
-                                      
-                                        </div>
-                                        
-                                        <div class="col-sm-6 port-pic">
-                                        
-                                                <a  href="https://devvo-nabb.herokuapp.com/" target="_blank"><img class="port_pic1" id="trains" src="https://i.imgur.com/E8yHI2R.png" width="300px" height="250px" alt="portfolio art"></a>
-                                                <h6 class="port_item1">Devvo Learning Platform</h6>
-                                                <p class="item_text1"> Express & Sequelize </p>
-                                                <p class="sub_item_text1">Prepping for a coding interview? 'Devvo' makes this job easier by providing the user with an organized platform that breaks down the big learning venture into manageable tasks. Lesson plans are stored in a MySQL database using a Sequelize ORM. A dynamically populating progress bar and charts using Chart.js keep the motivations high!</p></p>
-                                        
-                                        </div>
-                                        <!-- <div class="col-sm-1 port-pic"></div> -->
+               
+               <div class="row pic_row">   
+                  <div class="col-sm-6 port-pic">
+                        <div class="card" style="width: 25 rem;">
+                                <a  href="https://clickmememorygame.herokuapp.com/" target="_blank"><img class="card-img-top port_pic1" id="clickme-pic" src="https://i.imgur.com/ASXfROn.png" width="300px" height="250px" alt="portfolio3"></a>
+                                
+                                <div class="card-body">
+                                        <h6 class="card-title port_item_react">Avengers Click Game</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted item_text_react">React.js Components Props & State</h6>
+                                        <p class="card-text sub_item_react">Win this memory game by clicking no character twice! Effective use of React components, props, and state to handle events <br>and keep game score.</p>
+                                        <a href="https://github.com/Amena99/ClickMeMemoryGame/blob/master/README.md" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                        <a href="https://clickmememorygame.herokuapp.com/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
                                 </div>
-                             
-                </div>
+                        </div>
+                  </div>
+                                        
+                  <div class="col-sm-6 port-pic">
+                        <div class="card" style="width: 25 rem;">
+                                <a  href="https://floating-beyond-74728.herokuapp.com/" target="_blank"><img class="card-img-top port_pic1" id="hungry" src="https://i.imgur.com/O5Av1vJ.png" width="300px" height="250px" alt="portfolio art"></a>
+                                
+                                <div class="card-body">
+                                        <h6 class="card-title port_item_react">GoogleBooks Search & Save</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted item_text_react">GoogleBooks API & MongoDB</h6>
+                                        <p class="card-text sub_item_react">App enables users to search the GoogleBooks API for books by title or author. Chosen books can then be saved in user's <br>'Saved' list using MongoDB.</p>
+                                        <a href="https://github.com/Amena99/BookSearch2/blob/master/README.md" target="_blank" class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                        <a href="https://floating-beyond-74728.herokuapp.com/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                </div>
+                        </div>
+                  </div>    
+              </div>
         </div> 
-<div class="col-lg-1"></div>
+    <div class="col-lg-1"></div>
 </div> 
 
 <!-- Projects Row 3 -->
         <div class="row games1" id="portfolioRow3">
-                        <div class="col-sm-1"></div>
-                        <div class="col-lg-10">
-                                <h4 id="heading3">Vanilla JS, JQuery & Database Projects</h4>
-                                <p class="sub-heading1">
-                                  These interactive games and sites were built with JavaScript <br> integrating various technologies and databases. 
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <h4 id="heading3">Vanilla JS, JQuery & Database Projects</h4>
+                <p class="sub-heading1">
+                        These interactive games and sites were built with JavaScript <br> integrating various technologies and databases. 
+                
+                </p>          
+                <div class="row pic_row">
+                    <div class="col-sm-4 port-pic2">
+                        <div class="card smallproj" style="width: 20rem;">
+                                <a  href="https://amena99.github.io/StarWarsRPG/" target="_blank"><img class="card-img-top port_pic2" src="https://i.imgur.com/wyoEJoT.png" width="300px" height="250px" alt="portfolio art"></a>        
                                 
-                                </p>
-                                <div class="step-block">
-                                  <div class="row pic_row">
-                         <div class="col-sm-4 port-pic2">
-                                        
-                                <a  href="https://hidden-cliffs-85859.herokuapp.com/" target="_blank"><img class="port_pic1" src="https://i.imgur.com/BuwS5Fb.png" width="300px" height="250px" alt="portfolio3"></a>
-                                <h6 class="port_item2">News Blog</h6>
-                                <p class="item_text2">NodeJS NPM Scraper Package <br>'Cheerio' & MongoDB</p>    
-                        </div>
+                                        <div class="card-body">
+                                                <h6 class="card-title port_item2">Star Wars Battle Game</h6>
+                                                <h6 class="card-subtitle mb-2 text-muted item_text2">JQuery RPG</h6>
+                                                <p class="card-text sub_item_text1"></p>
+                                                <a href="https://github.com/Amena99/StarWarsRPG/blob/master/README.md" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                                <a href="https://amena99.github.io/StarWarsRPG/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                        </div>
+                        </div>        
+                    </div>
                       
-                        <div class="col-sm-4 port-pic2">
-                                <a  href="https://amena99.github.io/unit-4-game/" target="_blank"><img class="port_pic2" src="https://i.imgur.com/wyoEJoT.png" width="300px" height="250px" alt="portfolio art"></a>
-                                <h6 class="port_item2">Star Wars Battle Game</h6>
-                                <div class="ptags"><p class="item_text2">JQuery RPG</p></div>
-                        </div>
-                         <div class="col-sm-4 port-pic2">
-                                <a  href="https://burgertracker4.herokuapp.com/" target="_blank"><img class="port_pic2" src="https://i.imgur.com/ZPA4GY0.png" width="300px" height="250px" alt="portfolio art"></a>
-                                <h6 class="port_item2">Burger Tracker</h6>
-                                <div class="ptags"><p class="item_text2">Express-Handlebars & MySQL</p></div>
-                        </div>
+                    <div class="col-sm-4 port-pic2">
+                                
+                        <div class="card smallproj" style="width: 20rem;">
+                                <a  href="https://burgertracker4.herokuapp.com/" target="_blank"><img class="card-img-top port_pic2" id="burger-track" src="https://i.imgur.com/ZPA4GY0.png" width="300px" height="250px" alt="portfolio art"></a>
+                                                              
+                                                       
+                                <div class="card-body">
+                                        <h6 class="card-title port_item2">Burger Tracker</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted item_text2">Express-Handlebars & MySQL</h6>
+                                        <p class="card-text sub_item_text1"></p>
+                                        <a href="https://github.com/Amena99/BurgerTracker" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                        <a href="https://burgertracker4.herokuapp.com/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                </div>
+                        </div>   
+                    </div>
+                    <div class="col-sm-4 port-pic2">
+                                
+                        <div class="card smallproj" style="width: 20rem;">
+                                <a  href="https://amena99.github.io/TriviaGame/" target="_blank"><img class="card-img-top port_pic2" src="https://i.imgur.com/tIvUqaW.png" width="300px" height="250px" alt="portfolio art"></a>
+                                <div class="card-body">
+                                        <h6 class="card-title port_item2">Geography Trivia</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted item_text2">JS Timeouts & Intervals</h6>
+                                        <p class="card-text sub_item_text1"></p>
+                                        <a href="https://github.com/Amena99/TriviaGame" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                        <a href="https://amena99.github.io/TriviaGame/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                </div>
+                        </div>   
+                    </div>
                 </div>
+            
                 <!-- SubRow 2 -->
                 <div class="row pic_row">
-                        <div class="col-sm-4 port-pic2">  
-                                <a  href="https://amena99.github.io/MyAmazonne/" target="_blank"><img class="port_pic2" src="https://i.imgur.com/StoCh3z.png" width="300px" height="250px" alt="portfolio art"></a>
-                                <h6 class="port_item2">Friend Finder</h6>
-                                <div class="ptags"><p class="item_text2">Friend Match Algorithm & API</p></div>
-                        </div>
-                         <div class="col-sm-4 port-pic2">  
-                                <a  href="https://github.com/Amena99/WordGuess-CLI" target="_blank"><img class="port_pic2" src="https://i.imgur.com/SpSN0th.png" width="300px" height="250px" alt="portfolio art"></a>
-                                <h6 class="port_item2">Word Guess</h6>
-                                <div class="ptags"><p class="item_text2">CLI Game uses JS Classes <br> & Constructors</p></div>
-                        </div>
-                       
-               
-                        <div class="col-sm-4 port-pic2">  
-                                <a  href="https://amena99.github.io/TriviaGame/" target="_blank"><img class="port_pic2" src="https://i.imgur.com/tIvUqaW.png" width="300px" height="250px" alt="portfolio art"></a>
-                                <h6 class="port_item2">Geography Trivia</h6>
-                                <div class="ptags"><p class="item_text2">JS Timeouts & Intervals</p></div>
-                        </div> 
-                </div>
-                        <!-- SubRow 3 -->
-                <div class="row pic_row">
-                         <div class="col-sm-4 port-pic2 col1">
-                                <a href="https://amena99.github.io/Word_Guess_Game/" target="_blank"><img class="port_pic2"  src="https://i.imgur.com/iMXWjHp.png" width="300px" height="250px" alt="portfolio3"></a>
-                                <h6 class="port_item2">Under the Sea Word Guess Game</h6>
-                                <div class="ptags">
-                                <p class="item_text2">JavaScript</p>
-                                </div>
-                        </div>
-                        <div class="col-sm-4 port-pic2">
-                                <a  href="https://amena99.github.io/GIPHY_API_Site/" target="_blank"><img class="port_pic1" src="https://i.imgur.com/1nDpKOU.png" width="300px" height="250px" alt="portfolio3"></a>
-                                <h6 class="port_item2">Travel Attractions GIF Finder</h6>
-                                <p class="item_text2">JQuery & API Calls </p> 
-                        </div>
-                
-                        <div class="col-sm-4 port-pic">
-                                <a  href="https://amena99.github.io/Live-Train-Schedule/" target="_blank"><img class="port_pic1" id="trains" src="https://i.imgur.com/Lys2jZq.png" width="300px" height="250px" alt="portfolio art"></a>
-                                <h6 class="port_item2">Live Updating Train Schedule</h6>
-                                <p class="item_text2">Live update through Firebase</p>
-                        </div>
-                </div>
-             </div>
-        </div> 
-        <div class="col-lg-1"></div>
-</div>
+                    <div class="col-sm-4 port-pic2-2">  
 
+                    <div class="card smallproj" id="small-row-2" style="width: 20rem;">
+                        <a href="https://amena99.github.io/OceanWordGuess/" target="_blank"><img class="card-img-top port_pic2"  src="https://i.imgur.com/iMXWjHp.png" width="300px" height="250px" alt="portfolio3"></a>
+                                       
+                        <div class="card-body">
+                                <h6 class="card-title port_item">Word Guess Game</h6>
+                                <h6 class="card-subtitle mb-2 text-muted item_text2">JavaScript</h6>
+                                <p class="card-text sub_item_text1"></p>
+                                <a href="https://github.com/Amena99/OceanWordGuess" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                <a href="https://amena99.github.io/OceanWordGuess/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                        </div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-4 port-pic2-2">  
+                        <div class="card smallproj" id="small-row-2" style="width: 20rem;">
+                                <a  href="https://amena99.github.io/TravelGIFS/" target="_blank"><img class="card-img-top port_pic1" src="https://i.imgur.com/1nDpKOU.png" width="300px" height="250px" alt="portfolio3"></a>
+                        
+                                <div class="card-body">
+                                        <h6 class="card-title port_item2">Travel the World GIF Finder</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted item_text2">JQuery & API Calls</h6>
+                                        <p class="card-text sub_item_text1"></p>
+                                        <a href="https://github.com/Amena99/TravelGIFS" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                        <a href="https://amena99.github.io/TravelGIFS/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                </div>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4 port-pic2-2">  
+                        <div class="card smallproj" id="small-row-2" style="width: 20rem;">
+                                <a  href="https://amena99.github.io/LiveTrainSchedule/" target="_blank"><img class="card-img-top port_pic1" id="trains" src="https://i.imgur.com/Lys2jZq.png" width="300px" height="250px" alt="portfolio art"></a>
+                                <div class="card-body">
+                                        <h6 class="card-title port_item2">Live Updating Train Schedule</h6>
+                                        <h6 class="card-subtitle mb-2 text-muted item_text2">Firebase</h6>
+                                        <p class="card-text sub_item_text1"></p>
+                                        <a href="https://github.com/Amena99/LiveTrainSchedule" target="_blank"  class="card-link"><i class="fa fa-github fa-lg mr-1"></i>GitHub Repo</a>
+                                        <a href="https://amena99.github.io/LiveTrainSchedule/" target="_blank" class="card-link"><i class="fa fa-tablet fa-lg mr-1" aria-hidden="true"></i>Go to live app</a>
+                                </div>
+                        </div>  
+                    </div> 
+                </div>          
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
  
 <!-- Projects Row 4 -->
         <div class="row games3" id="portfolioRow4">
@@ -197,14 +281,14 @@
                         <div class="col-md-4">
                         <h4 id="heading4">Node.js</h4>
                         <p class="sub-heading3">
-                                This is an API retrieval project in Node.js. Query any song, movie, or search upcoming concerts. <br>Utilizes the following APIs: Bands In Town, Spotify, Open Movie Database.
+                        This is a back-end API requests project in Node.js. Query any song, movie, or search upcoming concerts. <br>Utilizes the following APIs: Bands In Town, Spotify, Open Movie Database.
                         </p>
                         </div>
                         <div class="col-md-8">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IAJxCV4JhT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" id="liri-iframe" src="https://www.youtube.com/embed/IAJxCV4JhT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                 </div>
-                <div class="row" id="portfolio-row-4-second">
+                <!-- <div class="row" id="portfolio-row-4-second">
                                 <div class="col-md-4">
                                 <h4 id="heading4">Express & MySql</h4>
                                 <p class="sub-heading3">
@@ -214,19 +298,18 @@
                                 <div class="col-md-8">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/WYq4oAi5YlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
-                        </div>
+                        </div> -->
                 </div>
+                <div class="col-lg-1"></div>
         </div>
 
-        <div class="row" id="portfoliorow-4">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10"></div>
-                <div class="col-lg-1"></div>
-        </div>
-        <div class="col-lg-1"></div>
+    <!-- FOOTER -->
+    <div class="row" id="about-4">
+                <div class="col-xs-12" id="connect-footer-port">
+                    <p>Let's Connect: am.ahmed09@gmail.com | <a href="http://www.linkedin.com/in/amena-ahmed" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a> | <a href="https://github.com/Amena99" target="_blank"><i class="fa fa-github fa-lg"></i></p></a>
+                </div>
+    </div>
+    <!-- END FOOTER -->
 </div>
-  
-
 </body>
-
 </html>

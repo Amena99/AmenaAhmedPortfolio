@@ -4,51 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Amena Ahmed</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round|Dancing+Script|Inconsolata|Orbitron|Pacifico|VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto+Mono|Special+Elite" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container-fluid fullpage"> 
             <div class="row">
                     <div class="col-lg-12">
-                    <div nav class="navbar navbar-expand-lg" id="navbar">
-                        <a class="navbar-brand mainnavtxt" id="nav-name" href="/about">Amena Ahmed</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ml-auto" id="nav_links" >
-                        <a class="nav-item nav-link navlink" id="navlink1" href="/about">About</a>
-                        <a class="nav-item nav-link navlink" id="navlink2" href="/portfolio">Portfolio</a>
-                        <a class="nav-item nav-link navlink" id="navlink3" href="/contact">Contact</a>
-                    </div>
-                    </div>                
-                    </div>
+                                  <!-- NAVBAR  -->
+                <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+                        <a class="navbar-brand mr-0 mainnavtxt" id="nav-name" href="/about">Amena Ahmed</a>
+                            <button class="navbar-toggler ml-1" id="nav-toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <div class="navbar-collapse collapse text-right" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navlink2" href="/portfolio">Portfolio</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navlink1" href="https://drive.google.com/file/d/1Ri_MdMf9Tjjamp1mPWNGbMdw2iFG_AKW/view?usp=sharing" target="_blank">Resume</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navlink3" href="/contact" >Contact</a>
+                                </li>
+                                 <li class="nav-item" id="linkedin_fa">
+                                     <a class="nav-link" href="https://github.com/Amena99" target="_blank"><i class="fa fa-github fa-lg mr-1"></i></a>
+                                </li>
+                                <li class="nav-item" id="github_fa">
+                                    <a class="nav-link" href="http://www.linkedin.com/in/amena-ahmed" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a> 
+                                </li>
+                                
+                            </ul>
+                        </div>  
+                </nav>
+                <!-- END NAV -->
                 </div>
             </div>
-         
-    <div class="row">
-       <div class="col-md-1"></div>
-        <div class="col-lg-8">
-            <div class="row">
-            <h1 id="contacttitle" style=text-align:left;>Contact</h1>  
-            </div>
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-lg-11">
-                    <p class="sub-heading2">
-                        <strong>Please reach out! </strong>
-                        <br>
-                        847.863.5724<br>am.ahmed09@gmail.com<br>https://www.linkedin.com/amena-ahmed<br>https://github.com/Amena99
-                    </p>
+    <!-- Intro Row -->
+<div class="row" id="portfolio_div">
+        <div class="col-lg-1" id="port_t"></div>
+                <div class="col-lg-10" id="titlecol"> 
+                        <!-- <div class="row"></div>  -->
+                        <div id="portfolio_title"><span>|Let's get in touch|</span></div>
                 </div>
-        
-        </div>
-                
-    </div>
+        <div class="col-lg-1"></div>
+</div>
+<!-- /Intro Row   -->
+<div class="row">
+            <div class="col-sm-1 col-xs-12"></div>
+            <div class="col-sm-10 col-xs-12 contactinfo">
+                <p id="chat-text"> I would love to get in touch and chat! Please reach out through any of the contact methods below. </p>
+                <p class="contactinfo2">
+                <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;  847.863.5724
+                <br>
+                <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; am.ahmed09@gmail.com
+                <br>
+                <i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;  https://www.linkedin.com/in/amena-ahmed
+                <!-- <br>
+                <i class="fa fa-github"></i>  https://github.com/Amena99 -->
+                </p>
+            </div>
+            <div class="col-sm-1 col-xs-12"></div>
+</div>
                 
                 <!-- accept-charset="UTF-8" action="https://usebasin.com/f/65da175249c3" method="POST" -->
     <!-- <form id="contact-form">
@@ -68,17 +94,15 @@
 
                 <button type="submit" class="btn btn-secondary" id="submit">Submit</button>
               </form> -->
+    <!-- FOOTER -->
+    <div class="row" id="about-4">
+        <div class="col-xs-12" id="connect-footer">
+           
+        </div>
     </div>
-         <div class="col-md-3"></div>
-        </div>  
-        <div class="row" id="contact-2">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-10"></div>
-            <div class="col-lg-1"></div>
-        </div>    
-      </div>
-
-
+    <!-- END FOOTER -->
+</div>
+</body>
 <script>  
 
 var config = {
