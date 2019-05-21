@@ -27,7 +27,7 @@ span{
     /* font-family: "proxima-soft", sans-serif; */
     font-weight: 300;
     text-align: right;
-    color: white;
+    color: black;
     font-family: monospace;
     font-size: 25px;
     margin-top: 150px;
@@ -45,7 +45,7 @@ span{
     /* font-family: "proxima-soft", sans-serif; */
     font-weight: 300;
     text-align: right;
-    color: white;
+    color: black;
     font-family: monospace;
     font-size: 30px;
     margin-top: 100px;
@@ -63,7 +63,7 @@ span{
     /* font-family: "proxima-soft", sans-serif; */
     font-weight: 300;
     text-align: right;
-    color: white;
+    color: black;
     font-family: monospace;
     font-size: 35px;
     margin-top: 180px;
@@ -73,7 +73,13 @@ span{
     white-space: nowrap;
     }
 }
+#profile-img{
+    background-color: transparent 100%;
+}
 
+#image-profile{
+    background: transparent 100%;
+}
 #contacttitle{
     padding-top:50px;
     padding-bottom:10px;
@@ -98,13 +104,14 @@ span{
 .jumbotron{
     text-align: center;
     /* background: url(https://i.imgur.com/wQ5Yl6z.jpg); */
-    background: url(https://i.imgur.com/cjJqn2f.jpg);
+    /* background: url(https://i.imgur.com/cjJqn2f.jpg); */
     /* background: url(https://i.imgur.com/DXpaIyk.jpg); */
     height: 700px;
     background-size: cover;
     background-position: center center;
     margin-bottom: 0px;
-    color: white;
+    color: black;
+    background-color: white;
     /* margin-bottom: 100px; */
 }
 
@@ -112,13 +119,14 @@ span{
    .jumbotron {
     text-align: center;
     /* background: url(https://i.imgur.com/wQ5Yl6z.jpg); */
-    background: url(https://i.imgur.com/cjJqn2f.jpg);
+    /* background: url(https://i.imgur.com/cjJqn2f.jpg); */
     /* background: url(https://i.imgur.com/DXpaIyk.jpg); */
     height: 600px;
     background-size: cover;
     background-position: center center;
     margin-bottom: 0px;
-    color: white;
+    color:black;
+    background-color: white;
     /* margin-bottom: 100px; */
     } 
 }
@@ -176,9 +184,7 @@ span{
     color: gray;
     font-weight: 300;
 }
-#ttl-col{
 
-}
 #about-4{
     background-color: #505050;
     height: 100px;
@@ -205,6 +211,7 @@ span{
     padding-right:20px;
     padding-left: 50px;
     font-weight: lighter;
+    color: white;
 }
 .navbar-expand-lg{
     /* border-bottom:2px solid #D3D3D3; */
@@ -293,6 +300,10 @@ span{
 }
 #traits{
     display: flex;
+   
+}
+#ttl-col{
+     border-right: solid 1px goldenrod;
 }
 
 #traits span{
@@ -309,26 +320,37 @@ span{
     height: 440px;
 }
 #p1tt, #p2tt, #p3tt, #p4tt, #portfolio_title span{
-    background-color:#0d1a48;
+    /* background-color:#0d1a48; */
     margin-bottom: 10px;
-    padding-top: 10px;
-    border-bottom:10px;
+    padding-top: 0px;
+    border-bottom:0px;
+    text-align: center;
 
     /* padding-left: 10px; */
+    
+}
+p{
+    
+        /* word-break: break-all; */
+        white-space: normal;
     
 }
 #p3tt, #p4tt{
     padding-left: 10px;
     margin-bottom: 20px;
 }
+#p4tt{
+    font-size: 20px;
+}
 #p2tt{
     font-size: 15px;
 }
 #traits-text{
     font-size: 20px;
-    text-align: left;
-    margin-left: 30px;
-    padding-top: 250px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-top: 10px;
 }
 .port-special{
     padding-left:30px;
