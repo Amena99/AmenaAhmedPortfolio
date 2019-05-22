@@ -28,7 +28,7 @@ span{
     font-weight: 300;
     text-align: right;
     color: black;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 25px;
     margin-top: 150px;
     margin-left: 25px;
@@ -46,7 +46,7 @@ span{
     font-weight: 300;
     text-align: right;
     color: black;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 30px;
     margin-top: 100px;
     margin-left: 10px;
@@ -64,7 +64,7 @@ span{
     font-weight: 300;
     text-align: right;
     color: black;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 35px;
     margin-top: 180px;
     margin-left: 5px;
@@ -277,10 +277,10 @@ span{
 #about1{
     text-align: left;
 }
-
+/* 
 #port_t{
     display: flex;
-}
+} */
 
 #portfolio_title {
     align-self: left;
@@ -309,38 +309,45 @@ span{
 #traits span{
     bottom: 0;
     right: 0;
-    font-family: monospace;
+    /* font-family: monospace; */
     align-self: flex-end;
     vertical-align: bottom;
 }
-#timelender{
+
+/* #timelender{
     height: 440px;
 }
 .cardtimelender, .cardtimelender2{
     height: 440px;
-}
-#p1tt, #p2tt, #p3tt, #p4tt, #portfolio_title span{
-    /* background-color:#0d1a48; */
+} */
+#p1tt, #p2tt, #p4tt, #portfolio_title span{
     margin-bottom: 10px;
     padding-top: 0px;
     border-bottom:0px;
     text-align: center;
+    font-weight: 200;
 
-    /* padding-left: 10px; */
-    
 }
 p{
-    
-        /* word-break: break-all; */
-        white-space: normal;
+    white-space: normal;
     
 }
 #p3tt, #p4tt{
     padding-left: 10px;
     margin-bottom: 20px;
 }
-#p4tt{
+#p3tt{
     font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-bottom:10px;
+    text-align: center;
+    font-weight: 200;
+}
+#p4tt{
+    font-size: 18px;
+    font-weight: 200;
 }
 #p2tt{
     font-size: 15px;
@@ -352,15 +359,67 @@ p{
     margin-right: 30px;
     padding-top: 10px;
 }
+.arrow-img{
+    padding-left: 30px;
+}
+.single-proj{
+    height: 350px;
+    width: 430px;
+}
+.sub-proj{
+    height: 100%;
+    width: 400px;
+}
 .port-special{
     padding-left:30px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .port-special2{
     padding-left:30px;
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
+}
+.port-pic{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.port-pic-sec{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+/* center projects on tablet and below */
+@media only screen and (max-width: 770px){
+    .port-special{
+        padding-left:30px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .port-special2{
+        padding-left:30px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .port-pic{
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .port-pic-sec{
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
 }
 
 #pimg{
@@ -440,17 +499,31 @@ p{
 #portfolio-row-4-second{
     margin-top:50px;
 }
-#heading1, #heading2, #heading3{
+#heading0-5, #heading0-6{
     padding:20px;
     padding-top:40px;
     font-weight: 200;
-    font-size: 50px;
+    font-size: 30px;
+}
+#heading1 {
+    padding:20px;
+    padding-bottom: 0px;
+    font-weight: 200;
+    font-size: 40px;
+}
+#heading3{
+    padding:20px;
+    font-weight: 200;
+    font-size: 40px;
 }
 #heading1, #heading3{
     color:#0d1a48;
 }
 #heading2{
     color: white;
+    padding:20px;
+    font-weight: 200;
+    font-size: 40px;
 }
 #heading4{
     padding:20px;
@@ -459,12 +532,20 @@ p{
     color: white;
     font-weight: 300;
 }
+.sub-heading0-5{
+    padding-top:20px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    color: darkgray;
+    font-size: 20px;
+    font-weight: 400;
+}
 .sub-heading1{
     padding-top:20px;
     padding-bottom: 30px;
     margin-bottom: 50px;
     color: #0d1a48;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
 }
 .sub-heading2{
@@ -474,6 +555,10 @@ p{
     color: #0d1a48;
     font-size: 30px;
     font-weight: 200;
+}
+.contact-row{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .contactinfo2{
     padding-top:20px;
@@ -640,14 +725,37 @@ p{
     box-shadow: 0 50px 50px 0 rgba(0,0,0,0.2);
   }
 .smallproj{
-    height:400px;
-}
-.smallproj{
+    width: 300px;
+    height:420px;
     box-shadow: 0 16px 25px 0 rgba(0,0,0,0.2);
 }
-.port-pic{
-    padding-left: 50px;
-    padding-right: 50px;
+.port-pic2{
+    /* width: 200px; */
+    /* align-content: center; */
+    padding-top:30px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+ .port-pic2-2{
+    padding-top:30px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+@media only screen and (max-width: 770px){
+    .port-pic2, 
+    .port-pic2-2 {
+        display: flex;
+        justify-content: center;
+    }
+    .node-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sub-heading3{
+        text-align: center;
+    }
 }
 
 .port_pic1{
@@ -658,9 +766,7 @@ p{
     color: whitesmoke;
     
 }
-.pic_row{
-    /* padding-left: 50px; */
-}
+
 .port_pic2{
     text-align: center;
     align-items: center;
@@ -670,16 +776,7 @@ p{
     
     
 }
-.port-pic2{
-    width: 200px;
-    align-content: center;
-}
-.port-pic2-2{
-    padding-top:30px;
-    padding-left:20px;
-    padding-right: 20px;
-    
-}
+
 
 #hungry{
     border:1px solid #ffa500;
@@ -695,10 +792,10 @@ p{
     padding-top:50px;
 }
 
-.games1
+/* .games1
 {
     padding-bottom: 150px;
-}
+} */
 .games2{
     padding-top: 150px;
 }
