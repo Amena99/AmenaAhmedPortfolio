@@ -164,24 +164,17 @@ span{
     font-size: 35px;
     padding-top:60px;
     /* padding-left: 50px; */
-    color: gray;
+    color:black;
     align-self: center;
     /* font-weight: 200; */
 }
-#subt2{
-    font-weight: 200;
-    font-size: 20px;
-    padding-top:13px;
-    padding-left: 40px;
-    color: gray;
-    font-weight: 300;
-}
+
 #subt3{
     font-weight: 200;
     font-size: 15px;
     padding-top:0px;
-    padding-left: 50px;
-    color: gray;
+    /* padding-left: 50px; */
+    color: black;
     font-weight: 300;
 }
 
