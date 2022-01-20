@@ -382,12 +382,12 @@ p{
     display: flex;
     justify-content: flex-end;
 }
-.port-pic-sec{
+/* .port-pic-sec{
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
     justify-content: flex-start;
-}
+} */
 /* center projects on tablet and below */
 @media only screen and (max-width: 770px){
     .port-special{
